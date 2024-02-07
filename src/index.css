@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SFProText';
+  src: url(./Font/FontsFree-Net-SFProText-Regular.ttf);
+}
+
+
+html, body, #root {
+  position: relative;
+  margin: 0;
+  padding: 0 15px;
+  max-height: 100vh;
+  overflow: auto;
+  text-decoration: none;
+  font-family: 'SFProText', sans-serif;
+}
+
