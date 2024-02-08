@@ -44,16 +44,16 @@ const navItem = [
                     <ul className=' md:space-x-10'>
                         {
                             navItem.map((item, index) => (
-                                <NavLink to={item.path} key={index} className='text-[14px] text-[#1E1E1E]' activeclassName="active">
+                                <NavLink to={item.path} key={index} className='link text-[13px] text-[#1E1E1E]' activeclassName="active">
                                         {item.name}
                                 </NavLink>
                             ))
                         }
                     </ul>
                 </nav>
-                <div className=' md:space-x-8'>
-                    <button className="text-[14px] text-[#358E07] font-semibold">Login</button>
-                    <button className='bg-[#358E07] text-[14px] text-white py-2 px-6 rounded-[5rem]'>Sign up</button>
+                <div className=' md:space-x-10'>
+                    <button className="text-[13px] text-[#358E07] font-semibold">Login</button>
+                    <button className='sign-up bg-[#358E07] text-[13px] text-white py-2 px-6 rounded-[5rem]'>Sign up</button>
                 </div>
             </div>
             <div className=''>

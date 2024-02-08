@@ -1,7 +1,15 @@
 .active {
-  border-bottom: 4px #0A7D08 solid;
+  font-weight: 700;
+}
+
+.link:hover {
+  border-bottom: 2px #0A7D08 solid;
   padding-bottom: 5px;
   transition: .2s ease-in;
+}
+
+.sign-up:hover {
+  background-color: #349105e1;
 }
 
 
