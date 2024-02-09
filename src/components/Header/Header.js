@@ -38,7 +38,7 @@ const navItem = [
 
     return (
         <div>
-            <div className=' md:flex md:flex-row md:justify-between md:items-center bg-[#F6FFF5] rounded-[10px] pr-8 mt-8'>
+            <div className=' md:flex md:flex-row md:justify-between md:items-center bg-[#F6FFF5] rounded-[10px] pr-8 mt-8 className mx-[35px]'>
                 <img src='./images/logo.png' className=''/>
                 <nav className=''>
                     <ul className=' md:space-x-10'>

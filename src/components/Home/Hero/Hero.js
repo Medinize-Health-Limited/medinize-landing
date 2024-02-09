@@ -6,11 +6,12 @@ const Hero = () => {
 
 
     return (
-        <div>
+        <div className="mx-[35px]">
             <div className="md:flex md:flex-row md:justify-between w-[90%] mx-auto mt-12">
                 <div className="w-[50%] mt-20">
                     <div className="">
-                        <h1 className="text-[2.8rem] text-[#1E1E1E] font-black leading-[52px]">Accelerate Your Health Plans with <span className="text-[#358E07]">Medinize</span></h1>
+                        <h1 className="text-[2.8rem] text-[#1E1E1E] font-black leading-[52px]">Accelerate Your Health <br />
+                        Plans with <span className="text-[#358E07]">Medinize</span></h1>
                         <img src="./images/fronds.png" className="w-[70%] float-right mr-14"/>
                     </div>
                     <p className="text-[14px] text-[#454343] mt-6 leading-6 text-justify w-[80%]">Our platform enables patients to easily manage health care needs from the comfort of their homes and have easy access to medical services. Unlock the power of medinize and accelerate towards a healthier future.</p>
