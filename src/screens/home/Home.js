@@ -4,6 +4,7 @@ import Reason from "../../components/Home/Reason/Reason";
 import Service from "../../components/Home/Service/Service";
 import About from "../../components/Home/About/About";
 import Use from "../../components/Home/Use/Use";
+import Faq from "../../components/Home/Faq/Faq";
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <Service />
             <About />
             <Use />
+            <Faq />
         </div>
     )
 }
