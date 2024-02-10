@@ -20,7 +20,7 @@ const Faq = () => {
                 </p>    
             </div>
 
-            <FaqComp />
+            {/* <FaqComp /> */}
         </div>
        
     )
