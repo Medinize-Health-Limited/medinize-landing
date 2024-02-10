@@ -12,6 +12,47 @@
   background-color: #349105e1;
 }
 
+.nav-section .button {
+  background-color: #2020ea;
+  color: white;
+  border-radius: .2rem;
+  padding: .3rem 1rem;
+}
+
+/* .nav-section .button:hover {
+  background-color: rgb(63, 63, 244);
+  color: white;
+  border-radius: .2rem;
+  padding: .3rem 1rem;
+} */
+
+.nav-section .navs ul li a {
+  color: rgb(169, 169, 169);
+}
+
+.side-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 100vh;
+  /* opacity: 0.1; */
+};
+
+@media screen and (min-width: 600px) {
+  .nav-section .navs ul li a:active {
+    color: black;
+    border-bottom: 2px solid rgb(63, 63, 244);
+  }
+  
+  .nav-section .navs ul li a:hover {
+    color: black;
+    border-bottom: 2px solid rgb(63, 63, 244);
+  }
+}
+
+
 
 
   

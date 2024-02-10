@@ -7,29 +7,31 @@ const Use = () => {
     
 
     return (
-        <div className="md:flex md:flex-row md:justify-between mx-auto w-[70%] space-x-14 mt-10">
-            <img src="./images/steth.png" className="h-[400px] w-[500px]"/>
+        <div className="md:flex md:flex-row md:justify-between mx-auto md:w-[70%] w-[100%] md:space-x-14 mt-10">
+            <img src="./images/steth.png" className="h-[400px] w-[500px] hidden md:block"/>
             <div className="mt-12">
-                <div className="mx-auto">
-                    <h1 className="text-[2rem] text-[#1E1E1E] font-bold text-center">How to Use <span className="text-[#358E07]">Medinize</span></h1>
+                <div className="mx-auto w-[80%] md:w-[100%]">
+                    <h1 className="md:text-[2rem] text-[1.5rem] text-[#1E1E1E] font-bold text-center">How to Use <span className="text-[#358E07]">Medinize</span></h1>
                     <div className="text-center">
-                        <img src="./images/fronds.png" className="w-[55%] float-right"/>
+                        <img src="./images/fronds.png" className="md:w-[55%] w-[55%] float-right"/>
                     </div>     
                 </div>
 
-                <div className="md:grid md:grid-cols-2 md:gap-6 w-[100%] mt-8">
+                <div className="md:grid md:grid-cols-2 md:gap-6 md:w-[100%] w-[85%] mx-auto mt-8 space-y-3 md:space-y-0">
                     {
                         uses?.map((use, index) => (
-                            <div className="border md:flex md:flex-row md:justify-between space-x-3 border-dashed p-3 rounded-[.3rem]">
+                            <div className="border flex flex-row justify-between space-x-3 border-dashed md:p-3 p-4 rounded-[.3rem]">
                                 <img src={use.icon} className="w-4 h-4"/>
                                 <div className="space-y-2">
-                                    <h3 className="text-[11px] font-bold text-[#1A1A1A]">{use.header}</h3>
-                                    <p className="text-[10px] text-[#111827] leading-[13px]">{use.content}</p>
+                                    <h3 className="md:text-[11px] text-[14px] font-bold text-[#1A1A1A]">{use.header}</h3>
+                                    <p className="md:text-[10px] text-[13px] text-[#111827] md:leading-[13px] leading-[20px]">{use.content}</p>
                                 </div>
                             </div>
                         ))
                     }
                 </div>
+
+                <img src="./images/steth.png" className="md:hidden block w-[90%] mx-auto mt-3 md:mt-0"/>
             </div>
             
         </div>   

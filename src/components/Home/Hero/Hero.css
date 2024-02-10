@@ -1,6 +1,19 @@
-.access {
+/* .access {
     border: 1px #358E07 solid;
+} */
+
+@media screen and (min-width: 600px) {
+  .access {
+    border: 1px #358E07 solid;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .access {
+    text-decoration: underline;
+  }
+}
+
 
 .book {
     border: 1px #358E07 solid;

@@ -1,42 +1,27 @@
 import React, { useEffect, useState } from "react";
 import './Faq.css';
-import { faqs } from './Faqs.js';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FaCircle } from "react-icons/fa";
 
 
-const FaqComp = () => {
-    // States to control toggle effect on faq
+
+const FaqComp = ({question, answer}) => {
+
     const [showAnswer, setShowAnswer] = useState(false);
-    const [currentId, setCurrentId] = useState(null);
-
-    // Will render one question and show/hide answer when span is clicked
-    const renderQuestion = (question) => {
-        const onClick = () => {
-            setCurrentId(question.id);
-            setShowAnswer(!showAnswer);
-        }
-
-        return (
-            <div key={question.id} className="border w-[38%] mx-auto">
-                <div className="border flex flex-row justify-between">
-                    <p>{question.question}</p>
-                    <span onClick={onClick}>
-                        {showAnswer ? (<img src="./images/minus.png" className=""></img>) : (<img src="./images/plus.png" className=""></img>)}
-                    </span>
-                </div>
-                {currentId === question.id && showAnswer === true && (<p>{question.answer}</p>) }
-            </div>
-        )
-
-    }
 
     return(
-        <div>
-            <div className="mt-6">
-                {faqs.map(renderQuestion)}
-            </div>
+        <div className="">
+             <div className = {showAnswer ? 'transition duration-400 ease-in-out bg-[#358E07] p-4 md:w-[43%] mx-auto rounded-[.5rem] w-[90%] mt-8': 'md:w-[40%] mx-auto w-[85%] mt-8'}>
+             <div className="">
+                <p className ={showAnswer ? 'question md:text-[13px] text-[15px] text-[#fff] border-[#fff] border-b-[.1rem] pb-3 flex flex-row justify-between' : 'question md:text-[13px] text-[15px] border-b-[.1rem] pb-3 flex flex-row justify-between'}>
+                    {/* <FaCircle className="h-2 w-2 border"/> */}
+                    {question}
+                    <button onClick={() => setShowAnswer(!showAnswer)} className="right">
+                        {showAnswer ? <img src="./images/minus.png" className="h-4 w-4"/> : <img src="./images/plus.png" className="h-4 w-4"/> }
+                    </button>               
+                </p>
+             </div>
+            {showAnswer && <p className= {showAnswer ? 'text-[#fff] md:text-[13px] text-[15px] mt-4' : ''}>{answer}</p>}
+        </div>
         </div>
     )
 }
