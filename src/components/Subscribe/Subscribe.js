@@ -16,7 +16,7 @@ const Subscribe = () => {
             <div className="mx-auto text-center">
                 <h1 className="md:text-[2.5rem] text-[1.5rem] text-[#fff] font-bold text-center">Subscribe to our <span className="text-[#358E07]">Newsletter</span></h1>   
             </div>
-            <p className="text-center text-[#fff] flex md:w-[35%] w-[90%] mx-auto mt-5 md:leading-[30px] leading-[27px]">
+            <p className="text-center text-[#ffffffc9] flex md:w-[35%] w-[90%] mx-auto mt-5 md:leading-[30px] leading-[27px]">
                 Be the first to receive exclusive updates, health tips and exciting news from Medinize. Join our growing community of subscribers today.
             </p>
 

@@ -19,7 +19,7 @@ const About = () => {
                     <img src="./images/fronds.png" className="md:w-[55%] w-[60%] float-right"/>
                 </div>     
             </div>
-            <p className="text-center text-[#fff] flex md:w-[45%] w-[88%] mx-auto md:mt-10 mt-5 leading-[32px]">
+            <p className="text-center text-[#ffffffc9] flex md:w-[45%] w-[88%] mx-auto md:mt-10 mt-5 leading-[32px]">
                 At  Medinize, we believe that everyone should have access to healthcare resources and be able to make informed decisions about their health. 
                 Through our user-friendly interface, we aim to bridge the gap between patients and doctors creating a smooth and personalized healthcare experience....
             </p>

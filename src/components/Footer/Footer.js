@@ -8,7 +8,7 @@ const Footer = () => {
     
     return (
         <div>
-            <div className="md:mt-14 mt-10 w-[80%] mx-auto">
+            <div className="md:mt-14 mt-6 w-[80%] mx-auto">
             <div className="md:flex md:flex-row md:justify-between">
                 <div className="space-y-3">
                     <img src="./images/logo.png" className="md:ml-0 -ml-10"/>
