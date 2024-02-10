@@ -5,6 +5,8 @@ import Service from "../../components/Home/Service/Service";
 import About from "../../components/Home/About/About";
 import Use from "../../components/Home/Use/Use";
 import Faq from "../../components/Home/Faq/Faq";
+import Subscribe from "../../components/Subscribe/Subscribe";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
 
@@ -16,6 +18,8 @@ const Home = () => {
             <About />
             <Use />
             <Faq />
+            <Subscribe />
+            <Footer />
         </div>
     )
 }

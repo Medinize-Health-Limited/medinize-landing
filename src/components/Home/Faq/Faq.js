@@ -8,7 +8,7 @@ const Faq = () => {
     return (
         <div className="mt-20">
             <div className="mx-auto w-[40%] relative">
-                <h1 className="text-[2rem] text-[#1E1E1E] font-bold text-center">Frequently Ask <span className="text-[#358E07]">Questions</span></h1>
+                <h1 className="text-[2rem] text-[#1E1E1E] font-bold text-center">Frequently Asked <span className="text-[#358E07]">Questions</span></h1>
                 <div className="text-center">
                     <img src="./images/fronds.png" className="w-[50%] float-right"/>
                 </div>
