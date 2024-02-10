@@ -29,7 +29,7 @@ const Use = () => {
                                 <img src={use.icon} className="w-4 h-4"/>
                                 <div className="space-y-2">
                                     <h3 className="md:text-[11px] text-[14px] font-bold text-[#1A1A1A]">{use.header}</h3>
-                                    <p className="md:text-[10px] text-[13px] text-[#111827] md:leading-[13px] leading-[20px]">{use.content}</p>
+                                    <p className="md:text-[10px] text-[13px] text-[#454343] md:leading-[13px] leading-[20px]">{use.content}</p>
                                 </div>
                             </div>
                         ))

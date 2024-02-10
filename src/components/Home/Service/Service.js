@@ -16,7 +16,7 @@ const Service = () => {
     return (
         <div className="md:mt-28 mt-10 md:shadow-md md:border-gray-100 py-7 w-[85%] mx-auto md:rounded-[.3rem]">
             <div className="mx-auto md:w-[20%] w-[70%]" data-aos='slide-up'>
-                <h1 className="text-[2rem] text-[#1E1E1E] font-bold text-center">Our <span className="text-[#358E07]">Services</span></h1>
+                <h1 className="md:text-[2rem] text-[1.5rem] text-[#1E1E1E] font-black text-center">Our <span className="text-[#358E07]">Services</span></h1>
                 <div className="text-center">
                     <img src="./images/fronds.png" className="w-[70%] float-right"/>
                 </div>     
@@ -28,7 +28,7 @@ const Service = () => {
                             <div key={index} className="md:w-[33.3%] md:space-y-[.8rem] space-y-[1.1rem] text-center md:text-left" data-aos='slide-up'>
                                 <img src={service.image} className="mx-auto border rounded-[.3rem]"/>
                                 <h3 className="text-[15px] font-bold text-[#1A1A1A]">{service.header}</h3>
-                                <p className="md:text-[12px] text-[14px] text-[#1E1E1E] md:leading-[19px] leading-[22px] md:text-justify">{service.content}...</p>
+                                <p className="md:text-[12px] text-[14px] text-[#454343] md:leading-[19px] leading-[22px] md:text-justify">{service.content}...</p>
                                 <div className="">
                                     <Link to={'/services'} className='underline md:text-[12px] text-[13px] text-[#358E07]'>Read Now</Link>
                                 </div>

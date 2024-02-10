@@ -26,7 +26,7 @@ const Faq = () => {
 
                 <img src="./images/love.png" className="hidden md:block absolute top-px right-[0px] h-8 w-11"/> 
 
-                <p className="md:text-[13px] text-[15px] text-[#2E2E2E] md:font-semibold text-center flex w-[75%] leading-[22px] mx-auto mt-5">
+                <p className="md:text-[13px] text-[14px] text-[#454343] md:font-semibold text-center flex w-[75%] leading-[22px] mx-auto mt-5">
                     We use only the best quality materials on the market in order to provide the best products to our patients.
                 </p>    
             </div>
