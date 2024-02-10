@@ -67,7 +67,7 @@ const navItem = [
                 <div>{children}</div>
             </div>
 
-            <div className= {isToggled ? 'md:hidden block side-nav pt-3 w-[100%] px-12 mx-auto' : 'hidden'}>
+            <div className= {isToggled ? 'md:hidden block side-nav pt-3 w-[100%] px-4 mx-auto' : 'hidden'}>
                     <div className='flex flex-row justify-between items-center'>
                         <span></span>
                         <img className= {isToggled ? 'block' : 'hidden'} src="./images/close.png" onClick={showSideNav}/> 
