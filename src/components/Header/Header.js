@@ -44,7 +44,7 @@ const navItem = [
 
     return (
         <div>
-            <div className='flex flex-row justify-between items-center bg-[#F6FFF5] rounded-[10px] pr-8 mt-8 className mx-[35px]'>
+            <div className='flex flex-row justify-between items-center md:bg-[#F6FFF5] rounded-[10px] pr-8 mt-8 className md;mx-[35px]'>
                 <img src='./images/logo.png' className=''/>
                 <nav className='md:block hidden'>
                     <ul className=' md:space-x-10'>

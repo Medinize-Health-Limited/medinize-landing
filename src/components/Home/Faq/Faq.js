@@ -9,8 +9,8 @@ const Faq = () => {
     return (
         <div className="md:mt-20 mt-11">
             <div className="mx-auto md:w-[40%] relative">
-                <div className="mx-auto md:w-[100%] w-[80%]">
-                    <h1 className="md:text-[2rem] text-[1.5rem] text-[#1E1E1E] font-bold text-center">Frequently Asked <span className="text-[#358E07]">Questions</span></h1>
+                <div className="mx-auto md:w-[100%] w-[90%] border">
+                    <h1 className="md:text-[2rem] text-[1.6rem] text-[#1E1E1E] font-bold text-center">Frequently Asked <span className="text-[#358E07]">Questions</span></h1>
                     <div className="text-center">
                         <img src="./images/fronds.png" className="md:w-[50%] w-[50%] float-right"/>
                     </div>
