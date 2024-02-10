@@ -44,8 +44,8 @@ const navItem = [
 
     return (
         <div>
-            <div className='flex flex-row justify-between items-center md:bg-[#F6FFF5] rounded-[10px] pr-8 mt-8 className md;mx-[35px]'>
-                <img src='./images/logo.png' className='' onClick={showSideNav}/>
+            <div className='flex flex-row justify-between items-center md:bg-[#F6FFF5] rounded-[10px] pr-8 md:mt-8 mt-4 className md;mx-[35px]'>
+                <img src='./images/logo.png' className=''/>
                 <nav className='md:block hidden'>
                     <ul className=' md:space-x-10'>
                         {
@@ -78,16 +78,16 @@ const navItem = [
                             <ul className='space-y-5 grid'>
                                 {
                                     navItem.map((item, index) => (
-                                        <NavLink to={item.path} key={index} onClick={showSideNav} className='link text-[14px] text-[#1E1E1E] w-auto' >
+                                        <NavLink to={item.path} key={index} onClick={showSideNav} className='link text-[#1E1E1E] w-auto' >
                                             {item.name}
                                         </NavLink>
                                     ))
                                 }   
                             </ul>
                         </div>
-                        <div className='space-y-4 grid mt-8'>
-                            <button className="text-[14px] text-[#358E07] font-semibold">Login</button>
-                            <button className='sign-up bg-[#358E07] text-[14px] text-white py-3 px-6 rounded-[5rem]'>Sign up</button>
+                        <div className='space-y-5 grid mt-8'>
+                            <button className="text-[#358E07] font-semibold">Login</button>
+                            <button className='sign-up bg-[#358E07] text-white md:py-3 py-[.8rem] px-6 rounded-[5rem]'>Sign up</button>
                         </div>
                     </div>
             </div>

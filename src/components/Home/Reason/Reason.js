@@ -24,10 +24,10 @@ const Reason = () => {
             <div className="md:flex md:flex-row md:justify-between md:items-center mx-auto md:w-[85%] w-[70%] md:space-x-10 md:space-y-0 space-y-3 mt-12">
                     {
                         reasons?.map((reason, index) => (
-                            <div key={index} className=" border text-center md:w-[25%] w-full md:px-3 px-8 py-7 md:h-[220px] space-y-2 rounded-[.3rem] shadow-md border-gray-100">
+                            <div key={index} className=" border text-center md:w-[25%] w-full md:px-3 px-7 py-7 md:h-[220px] space-y-2 rounded-[.3rem] shadow-md border-gray-100" data-aos='slide-up'>
                                 <img src={reason.icon} className="h-8 w-8 mx-auto"/>
                                 <h3 className="text-[14px] font-bold text-[#226802]">{reason.header}</h3>
-                                <p className="md:text-[12px] text-[13px] text-[#111111] leading-[20px]">{reason.content}</p>
+                                <p className="md:text-[12px] text-[14px] text-[#111111] leading-[20px]">{reason.content}</p>
                             </div>
                             
                         ))
