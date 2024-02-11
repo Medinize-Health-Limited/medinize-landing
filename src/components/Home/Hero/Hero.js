@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="md:flex md:flex-row md:justify-between md:w-[90%] mx-auto md:mt-12 md:mt-10 mt-6">
                 <div className="md:w-[50%] w-full md:mt-20">
                     <div className="">
-                        <h1 className="md:text-[2.8rem] text-[1.6rem] text-[#1E1E1E] font-black md:leading-[52px]">Accelerate Your Health <br />
+                        <h1 className="md:text-[2.8rem] text-[1.6rem] font-black md:leading-[52px]">Accelerate Your Health <br />
                         Plans with <span className="text-[#358E07]">Medinize</span></h1>
                         <img src="./images/fronds.png" className="md:w-[70%] w-[50%] float-right mr-14"/>
                     </div>

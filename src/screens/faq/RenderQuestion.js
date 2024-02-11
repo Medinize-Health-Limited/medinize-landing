@@ -10,7 +10,7 @@ const RenderQuestion = ({question, answer}) => {
     return(
         <div className="">
             <div className="border-b-[.1rem] md:pb-5 pb-3 md:w-[80%] mx-auto">
-                <div className = 'md:w-[100%] mx-auto md:w-[85%] md:mt-8 mt-6'>
+                <div className = 'md:w-[100%] md:w-[100%] md:mt-8 mt-6'>
                     <div className="">
                         <p className ={showAnswer ? 'md:text-[13px] font-semibold text-[13px] text-[#358E07] flex flex-row justify-between' : 'md:text-[13px] font-semibold text-[#454343] text-[13px] flex flex-row justify-between'}>
                             {question}

@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="md:mt-14 mt-6 w-[80%] mx-auto">
             <div className="md:flex md:flex-row md:justify-between">
                 <div className="space-y-3">
-                    <img src="./images/logo.png" className="md:ml-0 -ml-10"/>
+                    <img src="./images/logo.png" className="-ml-10"/>
                     <p className="text-[#454343] md:text-[.8rem] text-[1rem]">(+234)808729002</p>
                     <p className="text-[#454343] md:text-[.8rem] text-[1rem]">medinizehealthlimited@gmail.com</p>
                 </div>

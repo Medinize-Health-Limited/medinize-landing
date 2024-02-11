@@ -19,7 +19,7 @@ const About = () => {
             <div className="md:flex md:flex-row md:justify-between md:w-[90%] mx-auto md:mt-16 mt-6">
                 <div className="md:w-[50%] w-full">
                     <div className="">
-                        <h1 className="md:text-[2.8rem] text-[1.6rem] text-[#1E1E1E] font-black md:leading-[52px]">Pioneering The Future of Health Care</h1>
+                        <h1 className="md:text-[2.8rem] text-[1.6rem] font-black md:leading-[52px]">Pioneering The Future of Health Care</h1>
                     </div>
                     <p className="text-[14px] text-[#454343] mt-6 leading-6 text-justify md:w-[80%]">Welcome to Medinize, where we treat more than symptoms: we nurture well-being. Your health is not just a diagnosis, it is an ongoing journey. 
                         Join us in exploring the endless possibilities of health care innovation.</p>

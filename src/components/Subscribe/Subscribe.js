@@ -12,7 +12,7 @@ const Subscribe = () => {
 
     
     return (
-        <div className="subscribe mt-28 py-[4.2rem]" data-aos='slide-up'>
+        <div className="subscribe mt-28 py-[4.2rem]">
             <div className="mx-auto text-center">
                 <h1 className="md:text-[2.5rem] text-[1.5rem] text-[#fff] font-bold text-center">Subscribe to our <span className="text-[#358E07]">Newsletter</span></h1>   
             </div>
