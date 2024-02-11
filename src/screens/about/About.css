@@ -1,0 +1,22 @@
+
+
+  @media screen and (min-width: 600px) {
+    .vision {
+        background-image: linear-gradient(rgba(3, 3, 3, 0.8), rgba(13, 13, 16, 0.8)), url("/public/images/visionpic.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+      }
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .vision {
+        background-image: linear-gradient(rgba(3, 3, 3, 0.8), rgba(13, 13, 16, 0.8)), url("/public/images/visionpic.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40%;
+      }
+  }
