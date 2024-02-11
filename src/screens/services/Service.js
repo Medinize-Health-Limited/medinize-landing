@@ -10,7 +10,7 @@ const Services = () => {
         <div>
             <div className="md:flex md:flex-row md:justify-between md:w-[80%] w-[85%] mx-auto md:mt-16 mt-6 md:space-x-10">
                 <div className="md:w-[35%] w-full">
-                    <h6 className="text-[0.8rem] tracking-[0.2rem] text-[#358E07] font-semibold text-[1.6rem]">SERVICES</h6>
+                    <h6 className="text-[0.8rem] tracking-[0.2rem] text-[#358E07] font-semibold">SERVICES</h6>
                     <h1 className="md:text-[2.5rem] text-[1.6rem] font-black md:leading-[52px] mt-4">Discover a new era of healthcare with Medinize</h1>
                 </div>
                 <div className="md:w-[50%] w-full mt-4">
