@@ -13,17 +13,17 @@ const Contact = () => {
                         <p className="text-[#454343] ">Send a message, What can we do for you? </p>
                         <Form className="space-y-12 mt-10">
                             <Form.Group className="mb-3 grid space-y-4" controlId="name">
-                                <Form.Label className="text-[#454343] label md:text-[13px]">Full Name</Form.Label>
+                                <Form.Label className="text-[#454343] label md:text-[13px] text-[14.5px]">Full Name</Form.Label>
                                 <input type="text" placeholder=""  required className="outline-none border-b-[0.1rem] border-gray-400"/>
                             </Form.Group>
 
                             <Form.Group className="mb-3 grid space-y-4" controlId="email">
-                                <Form.Label className="text-[#454343] label md:text-[13px]">Email Address</Form.Label>
+                                <Form.Label className="text-[#454343] label md:text-[13px] text-[14.5px]">Email Address</Form.Label>
                                 <input type="text" placeholder=""  required className="outline-none border-b-[0.1rem] border-gray-400"/>
                             </Form.Group>
 
                             <Form.Group className="mb-3 grid space-y-4" controlId="message">
-                                <Form.Label className="text-[#454343] label md:text-[13px]">Your message</Form.Label>
+                                <Form.Label className="text-[#454343] label md:text-[13px] text-[14.5px]">Your message</Form.Label>
                                 <input type="text" placeholder=""  required className="outline-none border-b-[0.1rem] border-gray-400"/>
                             </Form.Group>
                         </Form>

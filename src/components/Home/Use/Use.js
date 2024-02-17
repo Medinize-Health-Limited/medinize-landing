@@ -22,14 +22,14 @@ const Use = () => {
                     </div>     
                 </div>
 
-                <div className="md:grid md:grid-cols-2 md:gap-6 md:w-[100%] w-[85%] mx-auto mt-8 space-y-3 md:space-y-0">
+                <div className="md:grid md:grid-cols-2 md:gap-6 md:w-[100%] w-[87%] mx-auto mt-8 space-y-3 md:space-y-0">
                     {
                         uses?.map((use, index) => (
                             <div className="border flex flex-row justify-between space-x-3 border-dashed md:p-3 p-4 rounded-[.3rem]" data-aos='slide-up'>
                                 <img src={use.icon} className="w-4 h-4"/>
                                 <div className="space-y-2">
-                                    <h3 className="md:text-[11px] text-[14px] font-bold text-[#1A1A1A]">{use.header}</h3>
-                                    <p className="md:text-[10px] text-[13px] text-[#454343] md:leading-[13px] leading-[20px]">{use.content}</p>
+                                    <h3 className="md:text-[11px] text-[14.5px] font-bold text-[#1A1A1A]">{use.header}</h3>
+                                    <p className="md:text-[10px] text-[14.5px] text-[#454343] md:leading-[13px] leading-[20px]">{use.content}</p>
                                 </div>
                             </div>
                         ))

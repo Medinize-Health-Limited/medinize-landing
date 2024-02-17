@@ -26,8 +26,8 @@ const Reason = () => {
                         reasons?.map((reason, index) => (
                             <div key={index} className=" border text-center md:w-[25%] w-full md:px-3 px-7 py-7 md:h-[220px] space-y-2 rounded-[.3rem] shadow-md border-gray-100" data-aos='slide-up'>
                                 <img src={reason.icon} className="h-8 w-8 mx-auto"/>
-                                <h3 className="text-[14px] font-bold text-[#226802]">{reason.header}</h3>
-                                <p className="md:text-[12px] text-[14px] text-[#454343] leading-[20px]">{reason.content}</p>
+                                <h3 className="text-[14.5px] font-bold text-[#226802]">{reason.header}</h3>
+                                <p className="md:text-[12px] text-[14.5px] text-[#454343] leading-[20px]">{reason.content}</p>
                             </div>
                             
                         ))

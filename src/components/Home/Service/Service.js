@@ -28,9 +28,9 @@ const Service = () => {
                             <div key={index} className="md:w-[33.3%] md:space-y-[.8rem] space-y-[1.1rem] text-center md:text-left" data-aos='slide-up'>
                                 <img src={service.image} className="mx-auto border rounded-[.3rem]"/>
                                 <h3 className="text-[15px] font-bold text-[#1A1A1A]">{service.header}</h3>
-                                <p className="md:text-[12px] text-[14px] text-[#454343] md:leading-[19px] leading-[22px] md:text-justify">{service.content}...</p>
+                                <p className="md:text-[12px] text-[14.5px] text-[#454343] md:leading-[19px] leading-[22px] md:text-justify">{service.content}...</p>
                                 <div className="">
-                                    <Link to={'/services'} className='underline md:text-[12px] text-[13px] text-[#358E07]'>Read Now</Link>
+                                    <Link to={'/services'} className='underline md:text-[12px] text-[13.5px] text-[#358E07]'>Read Now</Link>
                                 </div>
                             </div> 
                         ))

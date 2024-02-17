@@ -12,7 +12,7 @@ const FaqComp = ({question, answer}) => {
         <div className="">
              <div className = {showAnswer ? 'transition duration-400 ease-in-out bg-[#358E07] p-4 md:w-[43%] mx-auto rounded-[.5rem] w-[90%] mt-8': 'md:w-[40%] mx-auto w-[85%] mt-8'}>
              <div className="">
-                <p className ={showAnswer ? 'question md:text-[13px] text-[14px] text-[#fff] border-[#fff] border-b-[.1rem] pb-3 flex flex-row justify-between' : 'question md:text-[13px] text-[#454343] text-[14px] border-b-[.1rem] pb-3 flex flex-row justify-between'}>
+                <p className ={showAnswer ? 'question md:text-[13px] text-[14.5px] text-[#fff] border-[#fff] border-b-[.1rem] pb-3 flex flex-row justify-between' : 'question md:text-[13px] text-[#454343] text-[14.5px] border-b-[.1rem] pb-3 flex flex-row justify-between'}>
                     {/* <FaCircle className="h-2 w-2 border"/> */}
                     {question}
                     <button onClick={() => setShowAnswer(!showAnswer)} className="right">
@@ -20,7 +20,7 @@ const FaqComp = ({question, answer}) => {
                     </button>               
                 </p>
              </div>
-            {showAnswer && <p className= {showAnswer ? 'text-[#fff] md:text-[13px] text-[14px] mt-4' : ''}>{answer}</p>}
+            {showAnswer && <p className= {showAnswer ? 'text-[#fff] md:text-[13px] text-[14.5px] mt-4' : ''}>{answer}</p>}
         </div>
         </div>
     )
