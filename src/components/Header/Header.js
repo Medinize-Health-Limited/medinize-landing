@@ -44,8 +44,8 @@ const navItem = [
 
     return (
         <div>
-            <div className='flex flex-row justify-between items-center md:bg-[#F6FFF5] rounded-[10px] pr-8 md:mt-8 mt-4 className md:mx-[35px]'>
-                <img src='./images/logo.png' className='-ml-3'/>
+            <div className='flex flex-row justify-between items-center md:bg-[#F6FFF5] rounded-[10px] pr-5 md:mt-8 mt-4 md:mx-[35px]'>
+                <img src='./images/logo.png' className='-ml-4'/>
                 <nav className='md:block hidden'>
                     <ul className=' md:space-x-10'>
                         {
@@ -63,11 +63,12 @@ const navItem = [
                 </div>
                 <img src="./images/hamburger.png" className='md:hidden block' onClick={showSideNav}/>
             </div>
+
             <div className=''>
                 <div>{children}</div>
             </div>
 
-            <div className= {isToggled ? 'md:hidden block side-nav pt-3 w-[100%] px-4 mx-auto' : 'hidden'}>
+            <div className= {isToggled ? 'md:hidden block side-nav pt-3 w-[100%] -mr-2 px-4 mx-auto' : 'hidden'}>
                     <div className='flex flex-row justify-between items-center'>
                         <span></span>
                         <img className= {isToggled ? 'block' : 'hidden'} src="./images/close.png" onClick={showSideNav}/> 
