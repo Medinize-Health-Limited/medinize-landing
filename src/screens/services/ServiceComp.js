@@ -15,7 +15,7 @@ const ServiceComp = ({icon, question, answerimg, answers, answerone, answertwo})
                         <p className ={showAnswer ? 'ml-5 w-full md:text-[30px] font-black text-[14.5px] text-[#358E07] flex flex-row justify-between' : 'ml-5 w-full md:text-[30px] font-black text-[14.5px] flex flex-row justify-between'}>
                             {question}
                             <button onClick={() => setShowAnswer(!showAnswer)} className="">
-                                    {showAnswer ? <img src="./images/servicedown.png" className="w-4"/> : <img src="./images/serviceup.png" className="h-4 w-4"/> }
+                                    {showAnswer ? <img src="./images/serviceup.png" className="w-4"/> : <img src="./images/servicedown.png" className="h-4 w-4"/> }
                             </button>               
                         </p>
                     </div>

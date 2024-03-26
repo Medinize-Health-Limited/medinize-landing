@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import './Header.css';
 
 const Header = ({children}) => {
@@ -25,11 +25,11 @@ const navItem = [
             name: "About",
 
         },
-        {
-            path: "/communities",
-            name: "Communities",
+        // {
+        //     path: "/communities",
+        //     name: "Communities",
  
-        },
+        // },
         {
             path: "/faq",
             name: "FAQs",
@@ -58,8 +58,8 @@ const navItem = [
                     </ul>
                 </nav>
                 <div className='md:block hidden md:space-x-10'>
-                    <button className="text-[13px] text-[#358E07] font-semibold">Login</button>
-                    <button className='sign-up bg-[#358E07] text-[13px] text-white py-2 px-6 rounded-[5rem]'>Sign up</button>
+                    <button className="text-[13px] text-[#358E07] font-semibold"><Link to={'https://medinize-communities.netlify.app'}>Login</Link></button>
+                    <button className='sign-up bg-[#ceeace] text-[13px] text-[#086406] font-semibold text-white py-2 px-6 rounded-[5rem]'><Link to={'https://medinize-communities.netlify.app/signup'}>Sign up</Link></button>
                 </div>
                 <img src="./images/hamburger.png" className='md:hidden block' onClick={showSideNav}/>
             </div>
