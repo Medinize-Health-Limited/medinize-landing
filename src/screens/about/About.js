@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import { visions, values } from "./aboutdata.js";
 import Subscribe from "../../components/Subscribe/Subscribe.js";
 import Footer from "../../components/Footer/Footer.js";
+import { Link } from "react-router-dom";
 
 const About = () => {
 
@@ -24,8 +25,7 @@ const About = () => {
                     <p className="md:text-[13px] text-[14.5px] text-[#454343] mt-6 leading-6 text-justify md:w-[80%]">Welcome to Medinize, where we treat more than symptoms: we nurture well-being. Your health is not just a diagnosis, it is an ongoing journey. 
                         Join us in exploring the endless possibilities of health care innovation.</p>
                     <div className='md:space-x-4 mt-6 md:w-[70%] w-full md:flex md:flex-row md:justify-between md:space-y-0 space-y-3'>
-                        <button className="book bg-[#358E07] md:text-[13px] text-[14.5px] w-full md:w-[50%] text-white py-3 py-[.8rem] px-6 rounded-[5rem]">Book an appointment</button>
-                        <button className='access md:bg-[#fff] md:text-[13px] text-[14.5px] text-[#358E07] md:w-[50%] w-full py-3 px-6 md:rounded-[5rem]'>Access Community</button>
+                    <button className="book bg-[#358E07] md:text-[13px] w-full md:w-[50%] text-white py-3 py-[.8rem] px-6 rounded-[5rem]"><Link to={'https://community.medinizehealth.com'}>Get Started</Link></button>
                     </div>
                 </div>
                 <img src="./images/aboutpic.png" className="md:h-[40%] md:w-[42%] md:mt-0 mt-6"/>
