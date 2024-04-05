@@ -24,13 +24,41 @@ export const servicedata = [
         icon: './images/servicerecords.png',
         question: 'E- Records',
         answerimg: './images/serviceappointimg.png',
-        answerone: 'Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.',
+        answerone: 'Medinize Secures your Health Data and provides you easy access to your health information, personalizing your therapy experience.',
+        answers: [
+            {
+                answericon: './images/check.png',
+                answereach: 'Medinize provides your health data and information at your finger tips.',
+            },
+            {
+                answericon: './images/check.png',
+                answereach: 'We help you track and protect your medical history.',
+            },
+            {
+                answericon: './images/check.png',
+                answereach: 'Medinize improves your health journey through monthly plans and updates.',
+            },
+        ]
     },
     {
         icon: './images/servicesupport.png',
         question: 'Supportive Health Community',
         answerimg: './images/serviceappointimg.png',
-        answerone: 'Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.',
+        answerone: 'What is therapy without community? Medinize is changing the game through community therapy experience, we believe everyone has the right to quality health and sharing our stories inspire others.',
+        answers: [
+            {
+                answericon: './images/check.png',
+                answereach: 'Meet with patients.',
+            },
+            {
+                answericon: './images/check.png',
+                answereach: 'Share your story.',
+            },
+            {
+                answericon: './images/check.png',
+                answereach: 'Learn from professionals.',
+            },
+        ]
     },
 ]
 

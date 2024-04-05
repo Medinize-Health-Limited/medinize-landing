@@ -30,11 +30,11 @@ const navItem = [
         //     name: "Communities",
  
         // },
-        {
-            path: "/faq",
-            name: "FAQs",
+        // {
+        //     path: "/faq",
+        //     name: "FAQs",
  
-        },
+        // },
         {
             path: "/contact",
             name: "Contact",
@@ -87,8 +87,8 @@ const navItem = [
                             </ul>
                         </div>
                         <div className='space-y-5 grid mt-8'>
-                            <button className="text-[#358E07] font-semibold">Login</button>
-                            <button className='sign-up bg-[#358E07] text-white md:py-3 py-[.8rem] px-6 rounded-[5rem]'>Sign up</button>
+                            <button className="text-[#358E07] font-semibold"><Link to={'https://community.medinizehealth.com'}>Login</Link></button>
+                            <button className='sign-up bg-[#358E07] text-white md:py-3 py-[.8rem] px-6 rounded-[5rem]'><Link to={'https://community.medinizehealth.com/signup'}>Sign up</Link></button>
                         </div>
                     </div>
             </div>

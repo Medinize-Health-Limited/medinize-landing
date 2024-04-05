@@ -2,12 +2,12 @@ export const services = [
     {
         image: './images/clinical.png',
         header: "Clinical Appointment",
-        content: "Our convenient and user-friendly platform simplifies the process of booking and managing clinical appointments",
+        content: "Easily schedule appointments with medical professionals based on their availability, specialization, and location,",
     },
     {
         image: './images/records.png',
         header: "E-Records",
-        content: "With Medinize, users can make informed decisions about their health and feel confident to manage their well-being",
+        content: "Medinize Secures your Health Data and provides you easy access to your health information, personalizing your therapy",
     },
     {
         image: './images/support.png',

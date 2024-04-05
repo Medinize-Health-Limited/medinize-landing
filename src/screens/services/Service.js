@@ -14,8 +14,8 @@ const Services = () => {
                     <h1 className="md:text-[2.5rem] text-[1.6rem] font-black md:leading-[52px] mt-4">Discover a new era of healthcare with Medinize</h1>
                 </div>
                 <div className="md:w-[50%] w-full mt-4">
-                    <p className="md:text-[13px] text-[14.5px] text-[#454343] mt-6 leading-6 text-justify">Welcome to the future of healthcare innovation—welcome to Medinize. Our medical application, Medinize, introduces groundbreaking features designed to revolutionize the way you engage with your health.</p>
-                    <p className="md:text-[13px] text-[14.5px] text-[#454343] mt-6 leading-6 text-justify">Experience the convenience of Clinical Appointments, the efficiency of E-Records, and the support of our thriving Health Community. Join the ranks of those embracing innovation in health management with Medinize, your all-in-one solution for a healthier tomorrow.</p>
+                    <p className="md:text-[13px] text-[14.5px] text-[#454343] mt-6 leading-6 text-justify">Welcome to the future of healthcare innovation—Our mission and goal at Medinize is to introduce you to groundbreaking features designed to revolutionize the way you engage with your health. By providing you the platform where to have easy access, we provide easy care for everyone.</p>
+                    <p className="md:text-[13px] text-[14.5px] text-[#454343] mt-6 leading-6 text-justify">While experiencing the convenience of Clinical Appointments, the efficiency of E-Records, and the support of our thriving Health Community. Join the ranks of those embracing innovation in health management with Medinize, your all-in-one solution for a healthier tomorrow.</p>
                 </div>
             </div>
 
