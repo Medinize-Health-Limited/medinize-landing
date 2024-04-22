@@ -58,8 +58,8 @@ const navItem = [
                     </ul>
                 </nav>
                 <div className='md:block hidden md:space-x-10'>
-                    <button className="text-[13px] text-[#358E07] font-semibold"><Link to={'https://medinize-communities.netlify.app'}>Login</Link></button>
-                    <button className='sign-up bg-[#ceeace] text-[13px] text-[#086406] font-semibold py-2 px-6 rounded-[5rem]'><Link to={'https://medinize-communities.netlify.app/signup'}>Sign up</Link></button>
+                    <button className="text-[13px] text-[#358E07] font-semibold"><Link to={'https://community.medinizehealth.com'}>Login</Link></button>
+                    <button className='sign-up bg-[#ceeace] text-[13px] text-[#086406] font-semibold py-2 px-6 rounded-[5rem]'><Link to={'https://community.medinizehealth.com'}>Sign up</Link></button>
                 </div>
                 <img src="./images/hamburger.png" className='md:hidden block' onClick={showSideNav}/>
             </div>
