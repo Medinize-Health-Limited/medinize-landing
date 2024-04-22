@@ -20,17 +20,17 @@ const Footer = () => {
                         <li>Company</li>
                         <li><Link to={'/about'}>About us</Link></li>
                         <li><Link to={'/faq'}>FAQs</Link></li>
-                        <li><Link to={'/'}>Blog</Link></li>
+                        {/* <li><Link to={'/'}>Blog</Link></li> */}
                     </ul>
                     <ul className="links md:space-y-3 space-y-2">
                         <li>Product</li>
-                        <li><Link to={'/'}>Community</Link></li>
-                        <li><Link to={'/'}>Telemedicine</Link></li>
+                        <li>Community</li>
+                        <li>Telemedicine</li>
                     </ul>
                     <ul className="links md:space-y-3 space-y-2">
                         <li>Legal</li>
-                        <li><Link to={'/'}>Terms of service</Link></li>
-                        <li><Link to={'/'}>Policy</Link></li>
+                        <li>Terms of service</li>
+                        <li>Policy</li>
                     </ul>
                 </div>
             </div>
@@ -38,11 +38,11 @@ const Footer = () => {
             <div className="md:flex md:flex-row md:justify-between">
                 <span></span>
                 <ul className="flex flex-row justify-between items-center space-x-3 mt-6 md:w-[20%] w-[50%]">
-                    <li><img className="h-6 w-6" src="./images/facebook.png"/></li>
-                    <li><img className="h-6 w-6" src="./images/instagram.png"/></li>
-                    <li><img className="h-6 w-6" src="./images/youtube.png"/></li>
-                    <li><img className="h-6 w-6" src="./images/linkedin.png"/></li>
-                    <li><img className="h-6 w-6" src="./images/twitter.png"/></li>
+                    <li><Link to={'https://www.facebook.com/profile.php?id=61555238138288&mibextid=ZbWKwL'}><img className="h-6 w-6" src="./images/facebook.png"/></Link></li>
+                    <li><Link to={'https://www.instagram.com/medinize_?igsh=ZGtoZDJmbHp5OHFy'}><img className="h-6 w-6" src="./images/instagram.png"/></Link></li>
+                    {/* <li><Link to={'/'}><img className="h-6 w-6" src="./images/youtube.png"/></Link></li> */}
+                    <li><Link to={'https://www.linkedin.com/company/medinize/'}><img className="h-6 w-6" src="./images/linkedin.png"/></Link></li>
+                    <li><Link to={'https://x.com/Medinize_?t=nCGOx0j73ynOs7MfB5vbCg&s=09'}><img className="h-6 w-6" src="./images/twitter.png"/></Link></li>
                 </ul>
             </div>
             </div> 
